@@ -1,0 +1,21 @@
+<aiml version="1.0.1" encoding="UTF-8">
+	<category>
+		<pattern>Hello</pattern>
+		<template>
+			Hi , i am chatbot
+		</template>
+	</category>
+
+	<category>
+		<pattern>Random *</pattern>
+		<template>
+			<random>
+				<li>How old are you?</li>
+				<li>How are you?</li>
+				<li>What are your hobby's?</li>
+				<li>Where are you from?</li>
+				<li>What's up?</li>
+			</random>
+		</template>
+	</category>
+</aiml>
